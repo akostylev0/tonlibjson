@@ -50,5 +50,5 @@ itertools = "0.13"
 bitvec = "1.0.1"
 metrics = "0.24.1"
 reqwest = { version = "0.12.9", features = ["rustls-tls", "hickory-dns"], default-features = false }
-hickory-resolver = { version = "0.24.2", features = ["tokio-runtime"] }
+hickory-resolver = { version = "0.24.4", features = ["tokio-runtime"] }
 tokio-retry = "0.3"
