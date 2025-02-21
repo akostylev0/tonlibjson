@@ -2,7 +2,7 @@
 
 [package]
 name = "tvm-grpc"
-version = "0.7.8"
+version = "0.7.9"
 edition = "2021"
 authors = ["Andrei Kostylev <a.kostylev@pm.me>"]
 
