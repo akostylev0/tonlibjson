@@ -41,12 +41,12 @@ url = { version = "2.5.4", features = ["serde"] }
 clap = { version = "4.5.30", features = ["derive"] }
 humantime = "2.1.0"
 uuid = { version = "1.14", features = ["v4", "fast-rng", "serde"] }
-dashmap = "5.5"
+dashmap = "6.1.0"
 pin-project = "1.1"
 rand = "0.8"
 bytes = "1.9"
 thiserror = "1.0.69"
-itertools = "0.13"
+itertools = "0.14.0"
 bitvec = "1.0.1"
 metrics = "0.24.1"
 reqwest = { version = "0.12.9", features = ["rustls-tls", "hickory-dns"], default-features = false }
