@@ -31,11 +31,11 @@ tracing-test = "0.2.5"
 async-stream = "0.3.6"
 toner = "0.3.4"
 num-bigint = "0.4"
-tonic = { version = "0.11", features = ["gzip"] }
-tonic-reflection = "0.11"
-tonic-health = "0.11"
-tonic-build = "0.11"
-prost = "0.12"
+tonic = { version = "0.12.3", features = ["gzip"] }
+tonic-reflection = "0.12.3"
+tonic-health = "0.12.3"
+tonic-build = "0.12.3"
+prost = "0.13.5"
 quick_cache = "0.5"
 url = { version = "2.5.4", features = ["serde"] }
 clap = { version = "4.5.30", features = ["derive"] }

@@ -104,7 +104,7 @@ async fn main() -> anyhow::Result<()> {
     let reflection = tonic_reflection::server::Builder::configure()
         .register_encoded_file_descriptor_set(tonic_health::pb::FILE_DESCRIPTOR_SET)
         .register_encoded_file_descriptor_set(ton::FILE_DESCRIPTOR_SET)
-        .build()?;
+        .build_v1()?;
 
     let account_service = AccountServiceServer::new(AccountService::new(client.clone()))
         .accept_compressed(Gzip)

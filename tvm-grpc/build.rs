@@ -24,7 +24,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             "#[derive(serde::Deserialize, serde::Serialize)]",
         )
         .file_descriptor_set_path(out_dir.join("tvm_descriptor.bin"))
-        .compile(&["proto/tvm.proto"], &["proto"])?;
+        .compile_protos(&["proto/tvm.proto"], &["proto"])?;
 
     Ok(())
 }
