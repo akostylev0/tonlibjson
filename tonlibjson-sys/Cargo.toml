@@ -1,6 +1,6 @@
 [package]
 name = "tonlibjson-sys"
-version = "0.4.5"
+version = "0.4.6"
 edition = "2021"
 authors = ["Andrei Kostylev <a.kostylev@pm.me>"]
 license = "MIT"
