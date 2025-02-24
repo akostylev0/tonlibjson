@@ -27,7 +27,7 @@ prost = { workspace = true }
 url = { workspace = true }
 clap = { workspace = true }
 humantime = { workspace = true }
-either = "1.13"
+either = "1.14"
 derive-new = "0.7.0"
 metrics-exporter-prometheus = { version = "0.16.2", features = ["http-listener"], default-features = false }
 
