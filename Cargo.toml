@@ -40,7 +40,7 @@ quick_cache = "0.5"
 url = { version = "2.5.4", features = ["serde"] }
 clap = { version = "4.5.30", features = ["derive"] }
 humantime = "2.1.0"
-uuid = { version = "1.14", features = ["v4", "fast-rng", "serde"] }
+uuid = { version = "1.15", features = ["v4", "fast-rng", "serde"] }
 dashmap = "5.5"
 pin-project = "1.1"
 rand = "0.8"
